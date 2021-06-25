@@ -1,5 +1,52 @@
-.clear {
-	clear: both;
+
+body, html{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+	margin: 60px;
+}
+
+.clear{
+	clear:both;
+}
+
+#name {
+	margin-top: none;
+	margin-left: 40px;
+}
+
+section{
+	border-bottom: 1px solid #dedede;
+	margin: 10px;
+}
+#name h1{
+	font-family: Arial, Helvetica, sans-serif;
+	color: #444444;
+	font-size: 2.5em;
+	font-weight: 700;
+	margin-bottom: -6px;
+}
+.subDetails {
+	margin: 0px;
+	padding: none;
+	border: none;
+}
+
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
+}
+
+#mainArea h1{
+	color: #cf8a05;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	text-align: center;
+	font-size: 40px;
+}
+#mainArea h2 {
+	font-size: 2em;
+	margin-left: 2px;	
+	margin-bottom: 0px;	
+
 }
 
 #headshot {
@@ -8,12 +55,30 @@
 	margin-right: 30px;
 }
 
+#headshot img {
+	width: 70%;
+	height: 70%;
+	border-radius: 1000px;
+	padding: auto 40px;
+	margin-left: 70px;
+}
+
+
 #name {
 	float: left;
 }
 
 #contactDetails {
 	float: right;
+	cursor:pointer;
+}
+
+#contactDetails ul {
+	list-style-type: none;
+	font-size: 20px;
+	margin-top: 2px;
+	padding: 30px;
+	margin: 10px;	
 }
 
 .sectionTitle {
@@ -24,4 +89,18 @@
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	list-style: none;
+}
+
+.keySkills{
+	list-style: none;
+	float: left;
+	width: 100%;
+	columns: 3;
+
+}
+
+a {
+	color: #444444;
+	text-decoration: none;
 }
