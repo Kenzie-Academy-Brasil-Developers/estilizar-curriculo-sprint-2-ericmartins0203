@@ -3,6 +3,7 @@ body, html{
 	font-family:  Helvetica, sans-serif;
 	color: #444444;
 	margin: 60px;
+	background-color: #f3f3f3;
 }
 
 .clear{
@@ -26,9 +27,11 @@ section{
 	margin-bottom: -6px;
 }
 .subDetails {
+	color: #444444;
 	margin: 0px;
 	padding: none;
 	border: none;
+	font-style: italic;
 }
 
 .mainDetails{
@@ -68,6 +71,7 @@ section{
 }
 
 #contactDetails {
+	color: #181818;
 	float: right;
 	cursor:pointer;
 }
