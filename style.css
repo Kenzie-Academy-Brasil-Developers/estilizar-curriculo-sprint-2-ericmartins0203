@@ -1,60 +1,25 @@
 
 body, html{
-	font-family:  Helvetica, sans-serif;
+	font-family:  'Helvetica', sans-serif;
 	color: #444444;
-	margin: 60px;
 	background-color: #f3f3f3;
+	max-width: 800px;
+	margin:40px auto 20px auto;
 }
 
 .clear{
 	clear:both;
 }
-
+/*mainDetails*/
 #name {
 	margin-top: none;
 	margin-left: 40px;
 }
-
-section{
-	border-bottom: 1px solid #dedede;
-	margin: 10px;
-}
-#name h1{
-	font-family:  Helvetica, sans-serif;
-	color: #444444;
-	font-size: 2.5em;
-	font-weight: 700;
-	margin-bottom: -6px;
-}
-.subDetails {
-	color: #444444;
-	margin: 0px;
-	padding: none;
-	border: none;
-	font-style: italic;
-}
-
-.mainDetails{
-	border-bottom: 2px solid #cf8a05;
-}
-
-#mainArea h1{
-	color: #cf8a05;
-	font-style: italic;
-	text-align: center;
-	font-size: 40px;
-}
-#mainArea h2 {
-	font-size: 2em;
-	margin-left: 2px;	
-	margin-bottom: 0px;	
-
-}
-
 #headshot {
 	width: 12.5%;
 	float: left;
 	margin-right: 30px;
+	margin-top: 2rem;
 }
 
 #headshot img {
@@ -64,35 +29,72 @@ section{
 	padding: auto 40px;
 	margin-left: 70px;
 }
-
-
 #name {
 	float: left;
 }
 
+#name h1{
+	font-family:  Helvetica, sans-serif;
+	color: #444444;
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: -6px;
+}
+#name h2{
+	font-weight: 400;
+	margin-top: 0;
+	padding-top: 0;
+}
 #contactDetails {
 	color: #181818;
 	float: right;
 	cursor:pointer;
 }
-
 #contactDetails ul {
 	list-style-type: none;
-	font-size: 20px;
-	margin-top: 2px;
 	padding: 30px;
-	margin: 10px;	
+	margin: auto;	
 }
+.mainDetails{
+	border-bottom: 2px solid #cf8a05;
+}
+/*mainDetails*/
 
+/*mainArea*/
+#mainArea h1{
+	color: #cf8a05;
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+}
+#mainArea h2 {
+	font-size: 1.2rem;
+	margin-left: 2px;	
+	margin-bottom: 0px;	
+
+}
+.subDetails {
+	color: #444444;
+	margin: 0px;
+	padding: none;
+	border: none;
+	font-style: italic;
+}
+section{
+	border-bottom: 1px solid #dedede;
+	margin: 10px;
+}
 .sectionTitle {
 	float: left;
-	width: 25%;
+	width: 30%;
 }
 
 .sectionContent {
 	float: right;
-	width: 72.5%;
+	width: 65%;
 	list-style: none;
+	border: none;
+
 }
 
 .keySkills{
@@ -100,8 +102,8 @@ section{
 	float: left;
 	width: 100%;
 	columns: 3;
-
 }
+
 
 a {
 	color: #444444;
